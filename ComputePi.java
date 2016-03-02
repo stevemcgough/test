@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class ComputePi {
   public static void main(String args[]) {
-    int attempts = 1000;
+    int attempts = 100000;
     int hits = 0;
     Random rnd = new Random();
 
