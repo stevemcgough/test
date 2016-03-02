@@ -11,7 +11,7 @@ public class ComputePi {
       double x = rnd.nextDouble();
       double y = rnd.nextDouble();
 
-      if (x*x + y*y > 1)
+      if (x*x + y*y <= 1)
         hits = hits + 1;
     }
 
