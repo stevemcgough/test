@@ -15,7 +15,7 @@ public class ComputePi {
         hits = hits + 1;
     }
 
-    double pi = (double) hits / attempts;
+    double pi = (double) hits / attempts * 4;
 
     System.out.println("The value of pi is " + pi);
   }
